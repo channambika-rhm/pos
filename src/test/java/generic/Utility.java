@@ -8,6 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
@@ -15,17 +16,24 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class Utility {
-	
-	public static String getXLCellData(String xlpath,String sheetName,int col) {
+
+	public static String getXLCellData(String xlpath,String sheetName,int row,int col)
+	{
 		String data="";
-		try {
+		try 
+		{
 			Workbook wb = WorkbookFactory.create(new FileInputStream(xlpath));
-			
+			Sheet sheet1 = wb.getSheet(sheetName);
+			data = sheet1.getRow(row).getCell(col).toString();
+			wb.close();
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
 		}
 		
+		return data;
 	}
-	
-
 	public static String getTimeStamp()
 	{
 		LocalDateTime n = LocalDateTime.now();

@@ -20,7 +20,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -28,6 +27,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class BaseTest {
 	public static final String CONFIG_PATH="./config.properties";
+	public static final String XL_PATH="./data/input.xlsx";
 	public static ExtentReports extent;
 	
 	public WebDriver driver;
@@ -99,8 +99,6 @@ public class BaseTest {
 				driver=new EdgeDriver();
 			}	
 		}
-		
-		
 		
 		test.info("Enter the URL:"+appURL);
 		driver.get(appURL);
