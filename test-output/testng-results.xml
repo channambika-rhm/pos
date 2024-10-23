@@ -1,103 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Err Msg is Displayed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-10-17T11:44:12 IST" name="Suite" finished-at="2024-10-17T11:44:24 IST" duration-ms="11204">
+  <suite started-at="2024-10-23T11:41:06 IST" name="Default suite" finished-at="2024-10-23T11:41:10 IST" duration-ms="4266">
     <groups>
     </groups>
-    <test started-at="2024-10-17T11:44:12 IST" name="Test" finished-at="2024-10-17T11:44:24 IST" duration-ms="11204">
-      <class name="script.DemoX">
-        <test-method is-config="true" signature="bm(java.lang.reflect.Method)[pri:0, instance:script.DemoX@6a2f6f80]" started-at="2024-10-17T11:44:23 IST" name="bm" finished-at="2024-10-17T11:44:23 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.DemoX.createUser()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method signature="createUser()[pri:0, instance:script.DemoX@6a2f6f80]" started-at="2024-10-17T11:44:24 IST" name="createUser" finished-at="2024-10-17T11:44:24 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="bm(java.lang.reflect.Method)[pri:0, instance:script.DemoX@6a2f6f80]" started-at="2024-10-17T11:44:24 IST" name="bm" finished-at="2024-10-17T11:44:24 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.DemoX.deleteUser()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method signature="deleteUser()[pri:0, instance:script.DemoX@6a2f6f80]" started-at="2024-10-17T11:44:24 IST" name="deleteUser" finished-at="2024-10-17T11:44:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- script.DemoX -->
-      <class name="script.Demo4">
-        <test-method is-config="true" signature="bm()[pri:0, instance:script.Demo4@1190200a]" started-at="2024-10-17T11:44:23 IST" name="bm" finished-at="2024-10-17T11:44:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method signature="createUser()[pri:0, instance:script.Demo4@1190200a]" started-at="2024-10-17T11:44:23 IST" name="createUser" finished-at="2024-10-17T11:44:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- script.Demo4 -->
-      <class name="script.Demo3">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:script.Demo3@707194ba]" started-at="2024-10-17T11:44:20 IST" name="preCondition" finished-at="2024-10-17T11:44:23 IST" duration-ms="2919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="testC()[pri:0, instance:script.Demo3@707194ba]" started-at="2024-10-17T11:44:23 IST" name="testC" finished-at="2024-10-17T11:44:23 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testC -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.Demo3@707194ba]" started-at="2024-10-17T11:44:23 IST" name="postCondition" finished-at="2024-10-17T11:44:23 IST" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.Demo3 -->
-      <class name="script.Demo2">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:script.Demo2@75db5df9]" started-at="2024-10-17T11:44:17 IST" name="preCondition" finished-at="2024-10-17T11:44:20 IST" duration-ms="3105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="testB()[pri:0, instance:script.Demo2@75db5df9]" started-at="2024-10-17T11:44:20 IST" name="testB" finished-at="2024-10-17T11:44:20 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.Demo2@75db5df9]" started-at="2024-10-17T11:44:20 IST" name="postCondition" finished-at="2024-10-17T11:44:20 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.Demo2 -->
-      <class name="script.Demo1">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:script.Demo1@71e9ddb4]" started-at="2024-10-17T11:44:12 IST" name="initReport" finished-at="2024-10-17T11:44:12 IST" duration-ms="410" status="PASS">
+    <test started-at="2024-10-23T11:41:06 IST" name="Default test" finished-at="2024-10-23T11:41:10 IST" duration-ms="4266">
+      <class name="script.InvalidLogin">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:script.InvalidLogin@587e5365]" started-at="2024-10-23T11:41:06 IST" name="initReport" finished-at="2024-10-23T11:41:06 IST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:script.Demo1@71e9ddb4]" started-at="2024-10-17T11:44:12 IST" name="preCondition" finished-at="2024-10-17T11:44:17 IST" duration-ms="4421" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.InvalidLogin@587e5365]" started-at="2024-10-23T11:41:06 IST" name="preCondition" finished-at="2024-10-23T11:41:09 IST" duration-ms="2707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.InvalidLogin.testInvalidLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./config.properties]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testA()[pri:0, instance:script.Demo1@71e9ddb4]" started-at="2024-10-17T11:44:17 IST" name="testA" finished-at="2024-10-17T11:44:17 IST" duration-ms="29" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@587e5365]" started-at="2024-10-23T11:41:09 IST" name="testInvalidLogin" finished-at="2024-10-23T11:41:10 IST" duration-ms="1323" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Err Msg is Displayed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.Demo1@71e9ddb4]" started-at="2024-10-17T11:44:17 IST" name="postCondition" finished-at="2024-10-17T11:44:17 IST" duration-ms="196" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@587e5365]" started-at="2024-10-23T11:41:10 IST" name="postCondition" finished-at="2024-10-23T11:41:10 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLogin.testInvalidLogin()[pri:2, instance:script.InvalidLogin@587e5365] output=Err Msg is Displayed]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.Demo1@71e9ddb4]" started-at="2024-10-17T11:44:24 IST" name="generateReport" finished-at="2024-10-17T11:44:24 IST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:script.InvalidLogin@587e5365]" started-at="2024-10-23T11:41:10 IST" name="generateReport" finished-at="2024-10-23T11:41:10 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- script.Demo1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- script.InvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
